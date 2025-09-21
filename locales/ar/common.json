@@ -1,0 +1,110 @@
+{
+  "nav": {
+    "club_os": "Club OS",
+    "challenge": "Challenge",
+    "solution": "Solution",
+    "features": "Features",
+    "tech": "Tech",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "signin": "Sign in"
+  },
+  "hero": {
+    "trusted": "Trusted, privacy-first Club OS",
+    "title": "Revolutionising",
+    "title_highlight": "Football Club",
+    "subtitle": "TACTEC unifies sports science, medical, tactical, and operations into one clean platform. Plan sessions, monitor wellness, prevent injuries, and align staff—end to end.",
+    "cta": {
+      "start": "Get Started",
+      "demo": "Request Demo"
+    },
+    "stats": {
+      "injury": "Injury risk reduction",
+      "sync": "Faster team sync"
+    }
+  },
+  "challenge": {
+    "eyebrow": "The Challenge",
+    "title": "Fragmented football operations slow teams down",
+    "subtitle": "Data and workflows are scattered across spreadsheets, chats, and disconnected tools. Staff spend time syncing instead of improving performance.",
+    "items": {
+      "staff": {
+        "title": "Siloed Staff",
+        "desc": "Coaches, analysts, medical, and operations lack a single source of truth."
+      },
+      "workflows": {
+        "title": "Messy Workflows",
+        "desc": "Session plans, loads, availabilities, and logistics live in different places."
+      },
+      "insights": {
+        "title": "Lost Insights",
+        "desc": "Wellness + performance data isn’t connected, so prevention is reactive, not proactive."
+      }
+    }
+  },
+  "solution": {
+    "eyebrow": "The Solution",
+    "title": "One platform. Total clarity.",
+    "subtitle": "TACTEC centralises planning, communication, medical, analytics, and reporting—designed with a universal clean architecture to scale from academy to first team."
+  },
+  "features": {
+    "eyebrow": "Modules",
+    "title": "Comprehensive team management",
+    "subtitle": "Pick what you need now; scale later—everything stays in sync."
+  },
+  "tech": {
+    "eyebrow": "Technical Excellence",
+    "title": "Universal Clean Architecture",
+    "subtitle": "Four layers ensure separation of concerns, testability, and long-term agility."
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "title": "Simple, transparent plans",
+    "subtitle": "Start small, expand as your club grows.",
+    "plans": {
+      "academy": {
+        "title": "Academy",
+        "popular": "Most popular",
+        "cta": "Start trial"
+      },
+      "firstteam": {
+        "title": "First Team",
+        "cta": "Book demo"
+      },
+      "enterprise": {
+        "title": "Enterprise",
+        "cta": "Talk to sales"
+      }
+    }
+  },
+  "cta": {
+    "eyebrow": "Get Started",
+    "title": "Your club—unified, in your hand",
+    "subtitle": "See TACTEC in action and get your first squads onboarded in days, not months.",
+    "buttons": {
+      "demo": "Request a Live Demo",
+      "app": "Try Player App"
+    }
+  },
+  "footer": {
+    "about": "A clean, modular operating system for modern football clubs.",
+    "product": "Product",
+    "company": "Company",
+    "features": "Features",
+    "pricing": "Pricing",
+    "architecture": "Architecture",
+    "about_link": "About",
+    "contact": "Contact",
+    "security": "Security",
+    "rights": "© {year} Ventio",
+    "made": "Made with clean architecture ❤️"
+  },
+  "faq": {
+    "q1": "ما هو TACTEC؟",
+    "a1": "TACTEC هو منصة احترافية لإدارة أندية كرة القدم توحِّد سير العمل الطبي والتكتيكي والعلمي والتشغيلي في نظام موحّد.",
+    "q2": "من يستخدم TACTEC؟",
+    "a2": "صُمِّم TACTEC للأندية المحترفة والأكاديميات والمؤسسات الرياضية التي تسعى إلى الكفاءة وقابلية التوسع واتخاذ القرارات المبنية على البيانات.",
+    "q3": "ما فوائد TACTEC؟",
+    "a3": "يساعد TACTEC على تقليل مخاطر الإصابات، وتعزيز التنسيق بين الطواقم، وتوحيد جميع عمليات النادي في منصة آمنة وقابلة للتوسع."
+  }
+}

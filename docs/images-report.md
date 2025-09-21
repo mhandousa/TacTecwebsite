@@ -1,0 +1,27 @@
+# Images Report
+
+- 1000286390.webp: 1200x675px, 2.5 KB
+- 1000286392.webp: 1200x675px, 2.5 KB
+- 1000286398.webp: 1200x675px, 2.5 KB
+- 10_Proactive-Health-Management.webp: 1200x675px, 2.9 KB
+- 11_Advanced-Reporting-Systems.webp: 1200x675px, 3.1 KB
+- 12_Integrated-Communication-System.webp: 1200x675px, 3.0 KB
+- 13_Technical-Excellence-Universal-Clean-Architecture.webp: 1200x675px, 3.4 KB
+- 14_Revolutionary-Graphics-Engine.webp: 1200x675px, 2.9 KB
+- 16.webp: 1200x675px, 2.1 KB
+- 18_Getting-Started.webp: 1200x675px, 2.6 KB
+- 19_Your-Club-in-your-Hand.webp: 1200x675px, 2.7 KB
+- 1_TacTec-Revolutionising-Football-Club-Management.webp: 1200x675px, 3.6 KB
+- 2_The-Challenge-Fragmented-Football-Operations.webp: 1200x675px, 3.3 KB
+- 3_The-Solution.webp: 1200x675px, 2.4 KB
+- 4_What-is-TacTec.webp: 1200x675px, 2.5 KB
+- 5_Cross-Platform-Excellence.webp: 1200x675px, 2.8 KB
+- 6_Why-Choose-TacTec.webp: 1200x675px, 2.6 KB
+- 7_Tactical-Board-and-Formation-Maker.webp: 1200x675px, 3.0 KB
+- 8_Comprehensive-Team-Management.webp: 1200x675px, 2.9 KB
+- 9_Medical-Module-and-Wellness-Monitoring.webp: 1200x675px, 3.3 KB
+- Client_Offering_Catalog1.webp: 1200x675px, 2.8 KB
+- Client_Offering_Catalog_final.webp: 1200x675px, 2.9 KB
+- Surface-Pro-8-1-2.webp: 1200x675px, 2.5 KB
+- Tactec-2nd-lockup.webp: 1200x675px, 2.6 KB
+- Tactec-Lock-1-2-1.webp: 1200x675px, 2.5 KB

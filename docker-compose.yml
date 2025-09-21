@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+  tactec:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - SITE_URL=https://your-domain.com
+      - NEXT_PUBLIC_SITE_URL=https://your-domain.com
+      - NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX

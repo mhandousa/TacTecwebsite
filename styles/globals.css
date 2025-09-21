@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light dark; }
+body { @apply bg-white text-gray-900 dark:bg-gray-950 dark:text-gray-100; }
+.container { @apply max-w-7xl mx-auto px-4; }
+.section { @apply py-16 md:py-24 border-t; }
+.text-muted-foreground { @apply text-gray-600 dark:text-gray-400; }
+.bg-muted\/30 { background-color: rgba(0,0,0,0.03); }
