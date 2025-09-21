@@ -183,7 +183,7 @@ export default function TacTecLanding() {
       </section>
 
       {/* CHALLENGE */}
-      {/* ... unchanged content ... */}
+      {/* ... keep rest of sections unchanged ... */}
 
       {/* CTA */}
       <section id="contact" className="section bg-muted/30">
@@ -218,7 +218,7 @@ export default function TacTecLanding() {
       </section>
 
       {/* FOOTER */}
-      {/* ... unchanged content ... */}
+      {/* ... unchanged ... */}
     </div>
   );
 }
