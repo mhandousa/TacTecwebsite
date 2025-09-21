@@ -1,8 +1,6 @@
-// global.d.ts
-export {};
-
-declare global {
-  interface Window {
-    gtag?: (...args: any[]) => void;
-  }
-}
+"include": [
+  "next-env.d.ts",
+  "**/*.ts",
+  "**/*.tsx",
+  "global.d.ts"
+]
