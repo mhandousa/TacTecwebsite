@@ -6,6 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { useTranslations } from "next-intl";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
+import { trackEvent } from "@/utils/analytics";
 
 const SectionTitle: React.FC<{ eyebrow: string; title: string; subtitle?: string }> = ({ eyebrow, title, subtitle }) => (
   <div className="max-w-4xl mx-auto text-center">
@@ -38,66 +39,6 @@ export default function TacTecLanding() {
         <meta name="twitter:title" content={`TACTEC – ${t("hero.title")} ${t("hero.title_highlight")}`} />
         <meta name="twitter:description" content={t("hero.subtitle")} />
         <meta name="twitter:image" content="/images/1_TacTec-Revolutionising-Football-Club-Management.webp" />
-
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@graph": [
-                {
-                  "@type": "Organization",
-                  "name": "Ventio",
-                  "url": process.env.NEXT_PUBLIC_SITE_URL || "https://example.com",
-                  "logo": (process.env.NEXT_PUBLIC_SITE_URL || "https://example.com") + "/images/Tactec-2nd-lockup.webp",
-                  "sameAs": [
-                    "https://linkedin.com/company/ventio",
-                    "https://twitter.com/ventio",
-                    "https://facebook.com/ventio",
-                    "https://instagram.com/ventio"
-                  ]
-                },
-                {
-                  "@type": "Product",
-                  "name": "TACTEC",
-                  "brand": { "@type": "Organization", "name": "Ventio" },
-                  "description": "TACTEC unifies sports science, medical, tactical, and operations into one clean platform.",
-                  "image": (process.env.NEXT_PUBLIC_SITE_URL || "https://example.com") + "/images/1_TacTec-Revolutionising-Football-Club-Management.webp"
-                },
-                {
-                  "@type": "WebSite",
-                  "name": "TACTEC",
-                  "url": process.env.NEXT_PUBLIC_SITE_URL || "https://example.com",
-                  "potentialAction": {
-                    "@type": "SearchAction",
-                    "target": (process.env.NEXT_PUBLIC_SITE_URL || "https://example.com") + "/?s={search_term_string}",
-                    "query-input": "required name=search_term_string"
-                  }
-                },
-                {
-                  "@type": "FAQPage",
-                  "mainEntity": [
-                    {
-                      "@type": "Question",
-                      "name": t("faq.q1"),
-                      "acceptedAnswer": { "@type": "Answer", "text": t("faq.a1") }
-                    },
-                    {
-                      "@type": "Question",
-                      "name": t("faq.q2"),
-                      "acceptedAnswer": { "@type": "Answer", "text": t("faq.a2") }
-                    },
-                    {
-                      "@type": "Question",
-                      "name": t("faq.q3"),
-                      "acceptedAnswer": { "@type": "Answer", "text": t("faq.a3") }
-                    }
-                  ]
-                }
-              ]
-            })
-          }}
-        />
       </Head>
 
       {/* NAVBAR */}
@@ -119,14 +60,7 @@ export default function TacTecLanding() {
           <div className="flex items-center gap-3">
             <LanguageSwitcher />
             <Button variant="outline" className="hidden md:inline-flex">{t("nav.signin")}</Button>
-            <Button
-              className="rounded-md"
-              onClick={() => {
-                if (typeof window !== "undefined" && typeof (window as any).gtag !== "undefined") {
-                  (window as any).gtag("event", "cta_demo_click", { label: "Request Demo" });
-                }
-              }}
-            >
+            <Button className="rounded-md" onClick={() => trackEvent("cta_demo_click", { label: "Request Demo" })}>
               {t("hero.cta.demo")}
             </Button>
           </div>
@@ -145,25 +79,10 @@ export default function TacTecLanding() {
             </h1>
             <p className="mt-4 text-base md:text-lg text-muted-foreground max-w-xl">{t("hero.subtitle")}</p>
             <div className="mt-6 flex flex-wrap items-center gap-3">
-              <Button
-                className="rounded-md"
-                onClick={() => {
-                  if (typeof window !== "undefined" && typeof (window as any).gtag !== "undefined") {
-                    (window as any).gtag("event", "cta_start_click", { label: "Get Started" });
-                  }
-                }}
-              >
+              <Button className="rounded-md" onClick={() => trackEvent("cta_start_click", { label: "Get Started" })}>
                 {t("hero.cta.start")}
               </Button>
-              <Button
-                variant="outline"
-                className="rounded-md"
-                onClick={() => {
-                  if (typeof window !== "undefined" && typeof (window as any).gtag !== "undefined") {
-                    (window as any).gtag("event", "cta_demo_click", { label: "Request Demo" });
-                  }
-                }}
-              >
+              <Button variant="outline" className="rounded-md" onClick={() => trackEvent("cta_demo_click", { label: "Request Demo" })}>
                 {t("hero.cta.demo")}
               </Button>
               <div className="flex items-center gap-4">
@@ -182,8 +101,7 @@ export default function TacTecLanding() {
         </div>
       </section>
 
-      {/* CHALLENGE */}
-      {/* ... keep unchanged sections ... */}
+      {/* ... other sections unchanged ... */}
 
       {/* CTA */}
       <section id="contact" className="section bg-muted/30">
@@ -191,25 +109,10 @@ export default function TacTecLanding() {
         <div className="container grid md:grid-cols-2 gap-6 items-center">
           <Image src="/images/19_Your-Club-in-your-Hand.webp" alt="Your club in your hand" width={1000} height={700} className="rounded-2xl shadow-lg" />
           <div className="flex flex-col gap-3">
-            <Button
-              className="rounded-md"
-              onClick={() => {
-                if (typeof window !== "undefined" && typeof (window as any).gtag !== "undefined") {
-                  (window as any).gtag("event", "cta_footer_demo", { label: "Request Live Demo" });
-                }
-              }}
-            >
+            <Button className="rounded-md" onClick={() => trackEvent("cta_footer_demo", { label: "Request Live Demo" })}>
               {t("cta.buttons.demo")}
             </Button>
-            <Button
-              variant="outline"
-              className="rounded-md"
-              onClick={() => {
-                if (typeof window !== "undefined" && typeof (window as any).gtag !== "undefined") {
-                  (window as any).gtag("event", "cta_footer_app", { label: "Try Player App" });
-                }
-              }}
-            >
+            <Button variant="outline" className="rounded-md" onClick={() => trackEvent("cta_footer_app", { label: "Try Player App" })}>
               {t("cta.buttons.app")}
             </Button>
             <Image src="/images/Tactec-Lock-1-2-1.webp" alt="Security lock TACTEC" width={420} height={300} className="rounded-lg border" />
